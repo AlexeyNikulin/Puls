@@ -1,0 +1,50 @@
+.footer {
+    position: relative;
+    height: 630px;
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background-color: $main-color;
+        padding: 50px 68px 60px 68px;
+    }
+
+    &__addr {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1;
+        text-align: center;
+        color: #ffffff;
+        font-style: normal;
+    }
+
+    &__phone {
+        display: block;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 1;
+        color: #ffffff;
+        margin-top: 36px;
+    }
+
+    &__links {
+        @include flex;
+        justify-content: center;
+        margin-top: 38px;
+    }
+
+    &__link {
+        display: block;
+        @include flex;
+        justify-content: center;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        border: solid 2px #ffffff;
+        margin: 0 15px;
+    }
+}

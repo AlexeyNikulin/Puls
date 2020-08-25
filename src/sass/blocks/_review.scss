@@ -1,0 +1,47 @@
+.review {
+    padding-bottom: 71px;
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: #0d0d0d;
+        text-transform: uppercase;
+    }
+
+    &__wrapper {
+        margin-top: 70px;
+    }
+    &-item {
+        @include flex;
+        justify-content: center;
+        margin-top: 100px;
+        &__circle {
+            margin-right: 62px;
+        }
+    
+        &__text {
+            width: 657px;
+        }
+    
+        &__title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0d0d0d;
+        }
+    
+        &__subtitle {
+            font-size: 14px;
+            font-weight: 300;
+            color: #646464;
+            margin-top: 8px;
+        }
+    
+        &__descr {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: normal;
+            color: #0d0d0d;
+            margin-top: 15px;
+        }
+    }    
+}

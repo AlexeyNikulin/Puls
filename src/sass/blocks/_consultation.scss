@@ -1,0 +1,19 @@
+.consultation {
+    min-height: 680px;
+    background: url('../img/bg/run.jpg') center center/cover no-repeat;
+    padding: 100px 0 92px 0;
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 80px;
+    }
+}

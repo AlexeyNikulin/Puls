@@ -1,0 +1,36 @@
+.advent {
+    min-height: 472px;
+    padding: 69px 0 81px 0;
+    &__title {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: #0d0d0d;
+    }
+
+    &__wrapper {
+        margin-top: 65px;
+        @include flex;
+    }
+
+    &__item {
+        width: 248px;
+        @include flex-col;
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        margin-top: 38px;
+    }
+
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: normal;
+        color: #0d0d0d;
+        text-align: center;
+        margin-top: 26px;
+    }
+}

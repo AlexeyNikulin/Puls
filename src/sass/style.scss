@@ -1,0 +1,30 @@
+@import 'libs/animate';
+@import 'libs/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/normalize';
+@import 'base/animations';
+@import 'base/variables';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'blocks/forms';
+@import 'blocks/button';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/advent';
+@import 'blocks/consultation';
+@import 'blocks/slider';
+@import 'blocks/catalog';
+@import 'blocks/review';
+@import 'blocks/footer';
+@import 'blocks/modal';

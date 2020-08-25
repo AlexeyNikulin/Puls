@@ -1,0 +1,40 @@
+.slider {
+    position: relative;
+    min-height: 980px;
+    &__wrapper {
+        padding: 108px 0 80px 0;
+        min-height: 780px;
+        @include flex;
+    }
+    &__arrow {
+        cursor: pointer;
+    }
+
+    &__slides {
+        position: relative;
+        overflow: hidden;
+        width: 750px;
+    }
+
+    &__slide {
+        img {
+            width: 100%;
+        }
+    }
+
+    &__dots {
+        width: 60px;
+        @include flex;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    &__dot {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid rgb(169,169,169);
+        &_active {
+            background-color: rgb(169,169,169);
+        }
+    }
+}

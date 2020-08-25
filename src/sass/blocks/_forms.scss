@@ -1,0 +1,34 @@
+.feed-form {
+    width: 300px;
+    margin-top: 36px;
+    @include flex-col;
+    align-items: flex-start;
+    input {
+        width: 300px;
+        height: 50px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding-left: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #4b4b4b;
+        margin-top: 15px;
+    }
+    &_mt-25 {
+        margin-top: 25px;
+    }
+}
+
+.error-message_consultation-form {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.error-message_feed-form {
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 5px;
+}
